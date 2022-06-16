@@ -1,0 +1,89 @@
+*{
+  margin: 1px solid red;
+}
+
+body {
+  width: 317px;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #F5F5F5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h3,
+.info-site {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  color: #2B283A;
+  margin-top: 20px;
+  margin-bottom: 6px; 
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 0px;
+  color: #F47D27;
+  font-weight: 200px;
+  margin-bottom: 8.8px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #4A4E74;
+  font-size: 10px;
+}
+
+.info-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 30px 25px 30px;
+}
+
+.interest,
+.about {
+  margin-left: 35px;
+  margin-right: 40px;
+}
+h2 {
+  color: #2B283A;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about > p,
+.interest > p {
+  margin-top: 0px;
+  font-size: 10px;
+  color: #4A4E74;
+}
+
+.interest > p {
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #D5D4D8;
+  height: 65px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.footer > img {
+  width: 19.5px;
+  height: 19.5px;
+}

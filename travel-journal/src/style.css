@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+/*********  NAVBAR  *********/
+
+.navBar {
+  height: 55px;
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.journal--title {
+  font-weight: 500;
+  font-size: 14.4608px;
+  color: #FFFFFF;
+  margin-left: 7px;
+}
+
+/*********  Body  *********/
+
+.body {
+  display: flex;
+  margin: 45px
+}
+
+.front--img{
+  border-radius: 5px;
+  height: 170px;
+  width: 125px;
+  object-fit: cover;
+}
+
+.text--body {
+  margin-left: 19px;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 10.2px;
+  color: #2B283A;
+  margin-left: 4px;
+}
+
+.link--location {
+  margin-left: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  font-weight: 400;
+  font-size: 10.2px;
+}
+
+h1 {
+  color: #2B283A;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0;
+  line-height: 0;
+  margin-bottom: 30px;
+}
+
+.dates {
+  font-weight: 700;
+  font-size: 10.2px;
+  color: #2B283A;
+}
+
+p {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #2B283A;
+}

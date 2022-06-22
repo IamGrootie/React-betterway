@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+
+/********* NavBar *********/
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  background-image: linear-gradient(0.25turn, #672280, #A626D3); 
+  align-items: center;
+  color: #FFFFFF; 
+}
+
+.nav--title {
+  margin-left: 20px;
+  display: flex;
+}
+
+.troll--img {
+  width: 31px;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 1.25rem; 
+  margin-left: 7px;
+}
+
+.nav-course {
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-right: 37px;
+}
+
+/********* Form  *********/
+main {
+  padding: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  margin: 36px;
+  gap: 17px;
+}
+
+.form--input{
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+button {
+  background-image: linear-gradient(0.25turn, #672280, #A626D3);
+  color: white; 
+  grid-column: 1 / -1;
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/********* Meme  *********/
+
+.meme{
+  position: relative;
+}
+
+.meme--img{
+  width: 100%;
+  border-radius: 10px;
+} 
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 16px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 4px;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.text--top{
+  top: 0;
+}
+
+.text--bottom{
+  bottom: 0;
+}

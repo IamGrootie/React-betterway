@@ -14,4 +14,6 @@ In this repository there are projects that I have done under the React bootcamp 
   - [Airbnb Clone Website](https://github.com/IamGrootie/React-betterway/tree/main/airbnb-clone)
   - [Travel Journal](https://github.com/IamGrootie/React-betterway/tree/main/travel-journal)
   - [Meme Generator](https://github.com/IamGrootie/React-betterway/tree/main/meme-generator)
+  - [Counter App](https://github.com/IamGrootie/React-betterway/tree/main/counter-app)
+  - [Image Slider](https://github.com/IamGrootie/React-betterway/tree/main/image-slider)
 

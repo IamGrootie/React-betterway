@@ -16,4 +16,5 @@ In this repository there are projects that I have done under the React bootcamp 
   - [Meme Generator](https://github.com/IamGrootie/React-betterway/tree/main/meme-generator)
   - [Counter App](https://github.com/IamGrootie/React-betterway/tree/main/counter-app)
   - [Image Slider](https://github.com/IamGrootie/React-betterway/tree/main/image-slider)
+  - [Accordion Discord Clone](https://github.com/IamGrootie/React-betterway/tree/main/accordion)
 

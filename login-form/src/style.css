@@ -1,0 +1,177 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+App {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  backdrop-filter: blur(300px);
+}
+
+/* Nav */
+
+nav {
+  height: 78px;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  max-width: 2rem;
+}
+
+/* Title */
+
+h1 {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center; 
+  color: #4E5D78;
+}
+
+.top > p {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #4E5D78;
+  margin: 10px 0px;
+}
+
+/* Form */
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-body {
+  background: #fff;
+  box-shadow: 3px -5px 35px rgba(205, 205, 212, 0.1);
+  border-radius: 20px;
+  max-width: 580px;
+  max-height: 624px;
+  padding: 40px;
+}
+
+.login-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+.divider {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider > p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4E5D78;
+  text-align: center;
+  margin: 30px 20px;
+}
+
+input {
+  border: none;
+  width: 400px;
+  height: 30px;
+}
+
+.form-group {
+  border: 1px solid #4E5D78;
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+::-webkit-input-placeholder{
+  color: #4E5D78;
+}
+
+.form-logos {
+  margin: 10px;
+}
+
+/* Style of the form of date and gender  */
+
+.forms-together{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-date,
+.form-gender {
+  border: 1px solid #4E5D78;
+  border-radius: 10px;
+  width: 240px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+/* Style date input */
+
+input[type="date"]{
+  border: none;
+  width: 200px;
+  height: 30px;
+  margin-left: 5px;
+  color: #4E5D78;
+}
+
+::-webkit-calendar-picker-indicator{
+  display: none;
+}
+
+/* Style radio input */
+
+label {
+  color: #4E5D78;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+/* Sign up and in button */
+
+input[type="submit"]{
+  border: none;
+  width: 500px;
+  height: 50px;
+  color: white;
+  background: #377DFF;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.sign-button {
+  text-align: center;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+
+/* Section of sign in */
+
+.registered {
+  color: #4E5D78;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+}
+
+.sign-button {
+  color:#377DFF;
+  margin-left: 5px;
+}

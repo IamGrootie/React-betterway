@@ -1,11 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import {useAuth} from './auth'
 
 export default function Navbar() {
+  const auth = useAuth()
+
   return (
-    <nav>
-        <Link to='/' >Home</Link>
-        <Link to='about' >About</Link>
+    <nav className='main-nav'>
+        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/about' >About</NavLink>
+        <NavLink to='/products'>Products</NavLink>
+        <NavLink to='/profile'>Profile</NavLink>
+        {
+          !auth.user && (
+            <NavLink to='/login'>Login</NavLink>
+          )
+        }
     </nav>
   )
 }

@@ -22,5 +22,5 @@ It uses react-mde for the editor and react-router for the multiple pages.
 ## Contact Page
 
 <p align="center">
-  <img src="./ContactsPage.png" align="center"/>
+  <img src="./ContactPage.png" align="center"/>
 </p>

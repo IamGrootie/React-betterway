@@ -19,7 +19,11 @@ In this repository there are projects that I have done under the React bootcamp 
   - [Accordion Discord Clone](https://github.com/IamGrootie/React-betterway/tree/main/accordion)
   - [Sign-in form](https://github.com/IamGrootie/React-betterway/tree/main/login-form)
   - [React Calculator](https://github.com/IamGrootie/React-betterway/tree/main/calculator)
+
+  ### Second week
   - [Note App](https://github.com/IamGrootie/React-betterway/tree/main/note-app)
   - [Tenzies Game](https://github.com/IamGrootie/React-betterway/tree/main/tenzies-game)
+
+  ### Third week
   - [Note App Updated](https://github.com/IamGrootie/React-betterway/tree/main/dbest-note-app)
 

@@ -18,4 +18,8 @@ In this repository there are projects that I have done under the React bootcamp 
   - [Image Slider](https://github.com/IamGrootie/React-betterway/tree/main/image-slider)
   - [Accordion Discord Clone](https://github.com/IamGrootie/React-betterway/tree/main/accordion)
   - [Sign-in form](https://github.com/IamGrootie/React-betterway/tree/main/login-form)
+  - [React Calculator](https://github.com/IamGrootie/React-betterway/tree/main/calculator)
+  - [Note App](https://github.com/IamGrootie/React-betterway/tree/main/note-app)
+  - [Tenzies Game](https://github.com/IamGrootie/React-betterway/tree/main/tenzies-game)
+  - [Note App Updated](https://github.com/IamGrootie/React-betterway/tree/main/dbest-note-app)
 
